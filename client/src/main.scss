@@ -1,0 +1,23 @@
+@charset "utf-8";
+@import "~bulma/bulma.sass";
+
+.table-wrapper {
+	overflow-x: auto;
+}
+
+.loader {
+  height: 5em;
+  width: 5em;
+  border: 2px solid #757575;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  position: relative;
+  
+}
+
+.loader-container {
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
+
